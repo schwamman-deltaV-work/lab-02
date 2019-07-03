@@ -21,22 +21,26 @@ body {
 }
 
 #aboutMe {
-    width: 45%;
+    width: 50%;
     height: 400px;
-    padding: 50px;
     background-color: gray;
     color: white;
-    border: 5px solid lightgray;
     float: left;
+}
+
+#aboutMe p {
+    padding: 25px;
 }
 
 #list {
     float: left;
     background-color: #66B9BF;
     height: 400px;
-    width: 40%;
-    padding: 50px;
-    border: 5px solid lightgray;
+    width: 50%;
+}
+
+#list ul {
+    padding: 25px;
 }
 
 footer {
