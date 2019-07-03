@@ -8,8 +8,7 @@ questionFive();
 
 function questionOne() { 
   //Prompt with question and sets to lowercase
-  var questionOne = prompt('Did I graduate college?');
-  questionOne.toLowerCase().trim();
+  var questionOne = prompt('Did I graduate college?').toLowerCase().trim();
 
   //Validate user input
   if (questionOne === 'y' || questionOne === 'yes') {
@@ -22,8 +21,7 @@ function questionOne() {
 }
 
 function questionTwo() { 
-  var questionTwo = prompt('Do I have any pets?');
-  questionTwo.toLowerCase().trim();
+  var questionTwo = prompt('Do I have any pets?').toLowerCase().trim();
   
   if (questionTwo === 'y' || questionTwo === 'yes') {
     alert('Yes, I have two cats named Titan and Brownie.');
@@ -35,8 +33,7 @@ function questionTwo() {
 }
 
 function questionThree() { 
-  var questionThree = prompt('Are lagers my favorite style of beer?');
-  questionThree.toLowerCase().trim();
+  var questionThree = prompt('Are lagers my favorite style of beer?').toLowerCase().trim();
     
   if (questionThree === 'y' || questionThree === 'yes') {
     alert('That is incorrect, I actually prefer IPAs.');
@@ -48,8 +45,7 @@ function questionThree() {
 }
 
 function questionFour() { 
-  var questionFour = prompt('Have I always lived in Iowa?');
-  questionFour.toLowerCase().trim();
+  var questionFour = prompt('Have I always lived in Iowa?').toLowerCase().trim();
     
   if (questionFour === 'y' || questionFour === 'yes') {
     alert('Yes, I have travelled outside the state but I have always lived in either Cedar Rapids or Cedar Falls.');
@@ -61,8 +57,7 @@ function questionFour() {
 }
 
 function questionFive() { 
-  var questionFive = prompt('Is my favorite sport soccer?');
-  questionFive.toLowerCase().trim();
+  var questionFive = prompt('Is my favorite sport soccer?').toLowerCase().trim();
     
   if (questionFive === 'y' || questionFive === 'yes') {
     alert('Nope, my favorite sport is hockey. I\'m a Colorado Avalanche fan.');
