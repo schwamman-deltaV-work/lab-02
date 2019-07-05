@@ -101,7 +101,7 @@ function questionSix() {
 function questionSeven() {
   for (var i = 6; i > 0; i--) {
     var answerArray = ['hyundai', 'subaru', 'volkswagen', 'chrysler'];
-    var answerSeven = prompt('I have owened 4 different cars. Guess the brand/make for any of my cars?').toLowerCase().trim();
+    var answerSeven = prompt('I have owned 4 different vehicles. Guess the brand/make for any of my cars?').toLowerCase().trim();
     var checkIfTrue = answerArray.includes(answerSeven);
     if (checkIfTrue) {
       alert('You are correct. I did own a ' + answerSeven + '. Keep guessing for other makes.');
