@@ -28,19 +28,57 @@ body {
     float: left;
 }
 
+#aboutMe h3 {
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-top: 25px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
 #aboutMe p {
     padding: 25px;
 }
 
-#list {
+#education {
     float: left;
     background-color: #66B9BF;
     height: 400px;
     width: 50%;
+    color: white;
 }
 
-#list ul {
+#education h3 {
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+#education ul {
+    padding-left: 50px;
+    list-style-type: square;
+    line-height: 1.6;
+}
+
+#favorites {
+    color: white;
     padding: 25px;
+    width: 100%;
+    background-color: #EEAA7B;
+}
+
+#favorites h3 {
+    font-weight: bold;
+    font-size: 1.4em;
+    padding-bottom: 5px;
+    padding-top: 25px;
+}
+
+#favorites ol {
+    list-style-type: decimal;
+    padding-left: 25px;
 }
 
 footer {
