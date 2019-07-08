@@ -94,21 +94,23 @@ function questionFive() {
 }
 
 function questionSix() {
+  var randomInt = Math.floor(Math.random()*10 + 1);
+  console.log('RandomInt = ' + randomInt);
   for (var i = 4; i > 0; i--) {
-    var answerSix = prompt('Guess how old my cats are?').trim();
+    var answerSix = prompt('Guess a random number between one and ten. You have 4 attempts.').trim();
     answerSix = parseInt(answerSix);
     if (isNaN(answerSix)) {
       alert('Enter a valid number. ' + (i -1) + ' more tries');
     }
-    else if (answerSix === 2) {
-      alert('You got it! Both my cats are 2 years old and from the same litter.');
+    else if (answerSix === randomInt) {
+      alert('You got it! The random number is ' + randomInt);
       numCorrect++;
       break;
     }
-    else if (answerSix < 2) {
+    else if (answerSix < randomInt) {
       alert('Incorrect, try guessing a higher number. ' + (i - 1) + ' more tries');
     }
-    else if (answerSix > 2) {
+    else if (answerSix > randomInt) {
       alert('Incorrect, try guessing a lower number. ' + (i - 1) + ' more tries');
     }
   }
